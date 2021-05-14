@@ -4,6 +4,7 @@ from django.contrib.auth.models import update_last_login
 from django.http import JsonResponse
 from django.contrib.auth.hashers import make_password
 from datetime import datetime
+from django.template.response import TemplateResponse
 
 # Rest framework imports
 from rest_framework import serializers
@@ -72,6 +73,14 @@ def addOrderItems(request):
 
         serializer = OrderSerializer(order, many=False)
         return Response(serializer.data)
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def getMyOrders(request):
+    user = request.user
+    orders = user.order_set.all()
+    serializer = OrderSerializer(orders, many=True)
+    return Response(serializer.data)
 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
