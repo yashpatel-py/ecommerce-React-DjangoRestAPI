@@ -22,6 +22,30 @@
 1. open Command prompt or terminal in frontend folder where ```pacjage.json``` file is located and write command ```npm install``` or ```yarn install```
 2. To run the project run command ```npm start``` or ```yarn start```
 
+3. To setup PayPal Payment
+    - Create your developer account on http://developer.paypal.com/
+    - Login on dashboard
+    - In Dashboard go in ***SENDBOX SECTION and there you will see option `Accounts`*** and in accouunt you need to create 2 accounts 
+        - Personal
+            - click on *create account* and in that go to *Create custom account* 
+            - There select your region (According to your coiuntry)
+            - Account type should be ***Personal***, Give your email id (FAKE ID ALLOWED FOR DEVELOPMENT AND TESTING) 
+            - In ***PAYPAL Balance enter your ammount(This will not be real money for developing and testing)***
+            - Select payment card should be ***Discover***
+            - Cradit Card should be Visa
+        - Business
+            - click on *create account* and in that go to *Create custom account* 
+            - There select your region (According to your coiuntry)
+            - Account type should be ***Business***, Give your email id (FAKE ID ALLOWED FOR DEVELOPMENT AND TESTING) 
+            - In ***PAYPAL Balance enter your ammount(This will not be real money for developing and testing)***
+            - Select payment card should be ***Discover***
+            - Cradit Card should be Visa
+    - In Dashboard go in ***My Apps and Credentials and click on create app*** and there type should be **Merchant** and give your business mail id you can select from dropdown (It will show business mail id automatically if you have followed above steps)
+    - After Creating app you will see you will see Client Id that you need to copy and paste in `./frontend/src/screens/OrderScreen.js`. Replace that id with `Your PAYPAL CLIENT ID HERE`
+    and do not remove "=" sign.
+
+    ![client id of paypal](./readmess/s1.png?raw=true "CLIENT Id SS")
+
 ## Django Project setup
 
 1. Install virtualenv by command ```pip install virtualenv```
