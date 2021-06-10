@@ -18,7 +18,6 @@
 ## ***Clone this peoject***
 ## React Project Setup
 
-- **This project is still in peogress but i have started first with frontend using reac-js so for react setup**
 1. open Command prompt or terminal in frontend folder where ```pacjage.json``` file is located and write command ```npm install``` or ```yarn install```
 2. To run the project run command ```npm start``` or ```yarn start```
 
