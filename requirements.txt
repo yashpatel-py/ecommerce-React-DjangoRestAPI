@@ -11,7 +11,6 @@ click==7.1.2
 colorama==0.4.4
 cs50==5.0.4
 distlib==0.3.1
-Django==3.1.4
 django-ckeditor==5.9.0
 django-cors-headers==3.5.0
 django==3.1.0
