@@ -4,6 +4,8 @@
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
 ## Technology and tools used
+
+[![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCKspdO30Fea8ZCxwg-0svOg)
 ![noce js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -12,30 +14,30 @@
 ![django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![django](https://img.shields.io/badge/Paypal-092E70?style=for-the-badge&logo=paypal&logoColor=white)
 
-
 # Project setup
 
 ## ***Clone this peoject***
+
 ## React Project Setup
 
 1. open Command prompt or terminal in frontend folder where ```pacjage.json``` file is located and write command ```npm install``` or ```yarn install```
 2. To run the project run command ```npm start``` or ```yarn start```
 
 3. To setup PayPal Payment
-    - Create your developer account on http://developer.paypal.com/
+    - Create your developer account on <http://developer.paypal.com/>
     - Login on dashboard
-    - In Dashboard go in ***SENDBOX SECTION and there you will see option `Accounts`*** and in accouunt you need to create 2 accounts 
+    - In Dashboard go in ***SENDBOX SECTION and there you will see option `Accounts`*** and in accouunt you need to create 2 accounts
         - Personal
-            - click on *create account* and in that go to *Create custom account* 
+            - click on *create account* and in that go to *Create custom account*
             - There select your region (According to your coiuntry)
-            - Account type should be ***Personal***, Give your email id (FAKE ID ALLOWED FOR DEVELOPMENT AND TESTING) 
+            - Account type should be ***Personal***, Give your email id (FAKE ID ALLOWED FOR DEVELOPMENT AND TESTING)
             - In ***PAYPAL Balance enter your ammount(This will not be real money for developing and testing)***
             - Select payment card should be ***Discover***
             - Cradit Card should be Visa
         - Business
-            - click on *create account* and in that go to *Create custom account* 
+            - click on *create account* and in that go to *Create custom account*
             - There select your region (According to your coiuntry)
-            - Account type should be ***Business***, Give your email id (FAKE ID ALLOWED FOR DEVELOPMENT AND TESTING) 
+            - Account type should be ***Business***, Give your email id (FAKE ID ALLOWED FOR DEVELOPMENT AND TESTING)
             - In ***PAYPAL Balance enter your ammount(This will not be real money for developing and testing)***
             - Select payment card should be ***Discover***
             - Cradit Card should be Visa
